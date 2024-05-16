@@ -1,0 +1,57 @@
+#img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+}
+div{
+  font-family: "Happy Monkey", system-ui;
+ 
+  
+  
+}
+body{
+    text-align: center;
+    background:linear-gradient(#a2d2ff, #efb0c9);
+    color:#ffffff;
+    text-shadow: 0px 0px 2px black;
+    
+}
+span{
+    border: 2px solid #EFB0C9;
+    background-color: #EFB0C9;
+   
+   
+}
+.gift-section{
+    margin-top: 50px;
+}
+.gift-title{
+    margin-bottom: 20px;
+}
+.gift-img{
+    width:500px;
+    height: 600px;
+    border-radius: 5px;
+    border: 6px solid;
+    color: #ffffff; 
+    background-image: url("/images/gift-cover.jpg");
+    background-size: cover;
+    margin: 0 auto;    
+}
+#gift-happy:hover{
+    background-image: url(/images/gif/happy.gif);
+}
+
+#gift-genius:hover{
+    background-image: url(/images/gif/genius.gif);
+}
+#gift-badass:hover{
+    background-image: url(/images/gif/badass.gif);
+}
+#gift-friend:hover{
+    background-image: url(/images/gif/cheers.gif);
+}
+#gift-grandma:hover{
+    background-image: url(/images/gif/grandma.gif);
+}
